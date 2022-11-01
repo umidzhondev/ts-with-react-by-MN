@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Parents from './components/Parents';
-import GuestList from './components/GuestList';
+import EventComponent from './components/EventComponent';
+import UserSearch from './components/UserSearch';
+
 
 function App() {
   return (
     <div className="App">
-       <Parents/>
-       <GuestList/>
+        <UserSearch/>
+        <EventComponent/>
     </div>
   );
 }
